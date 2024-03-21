@@ -23,7 +23,7 @@ REQUIRED = [
     'scipy',
     'setproctitle>=1.0',
     'torch==1.11.0',
-    'torchvision>=0.2.1,<=0.8.2',
+    'torchvision==0.2.1',
 ]
 
 if sys.version_info < (3, 7):
